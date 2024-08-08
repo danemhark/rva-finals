@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding:0;
+  }
+  body{
+    background: rgb(45,204,240);
+   
+  }
+  .header{
+    background-color: rgb(43,161,234);
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: all 0.4s ease;
+  }
+  .logo {
+    position: absolute;
+    width: 200px; 
+    height: auto;
+    margin-right: 100%; 
+  }
+  .nature {
+    position: absolute;
+    width: 200px; 
+    height: auto;
+    margin-left: 230px;
+    font-size: 30px;
+    color: rgb(21,7,210);
+    
+  }
+  .nav-links{
+    display: flex;
+    margin-left: auto;
+  }
+  .nav-links > div{
+    color: whitesmoke;
+    font-size: 40px;
+    margin-right:22px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    transition: font-size 0.4s ease;
+    text-align: center;
+  }
+  .menu{
+   font-size: 40px;
+   left: 0;
+   color: whitesmoke;
+  }
+  @media (max-width: 475px) {
+   .nav-links > div {
+    font-size: 16px;
+   }
+  }
+  @media(min-width:1024px){
+    .nav-links > div{
+      font-size: 40px;}
+      .menu{ 
+        font-size: 40px;
+      }
+    }
+      .container {
+        position: absolute;
+      }
+    .image {
+      position: absolute;
+      margin-left: 60px;
+      margin-top: 40px;
+    }
+    .image1 {
+      position: absolute;
+      margin-left: 300px;
+      margin-top: 138px;
+      height: auto;
+      width: 450px;
+    }
+    
+    .contai {
+      position: relative;
+      display: flex;
+      width: 550px; 
+      height: 400px;
+      background-color: rgb(0,65,139); 
+      margin-left: 57%;
+      margin-top: 20px;
+      border-radius: 50px;
+    }
+    .behind {
+      position: absolute;
+      bottom: 340px;
+      font-size: 30px;
+      margin-left: 30px;
+
+    }
+    .box1 {
+      position: absolute;
+      margin-top: 80px;
+      font-size: 20px;
+      margin-left:30px ;
+
+    }
+       
+    .container1 {
+        position: absolute;
+        margin-top: 30px;
+        width: 100%; 
+        height: 120px;
+        background-color: rgb(0,65,139); 
+    }
+    .ADD {
+      position: absolute;
+      height: 80px;
+      width: 80px;
+      margin-left: 130px;
+      margin-top: 20px;
+    }
+    .trusted {
+      position: absolute;
+      margin-top:30px;
+      margin-left: 280px;
+      font-size: 35px;
+      font-family: grover;
+      color: white;
+    }
+    .brand {
+      position: absolute;
+      margin-top: 70px;
+      margin-left: 260px;
+      color: white;
+    }
+    .rec {
+      position: absolute;
+      height: 80px;
+      width: 90px;
+      margin-left: 710px;
+      margin-top: 20px;
+    }
+    .be {
+      position: absolute;
+      margin-top: 70px;
+      margin-left: 850px;
+      margin-top:30px ;
+      font-size: 30px;
+      color: white;
+    }
+    .let {
+      position: absolute;
+      margin-top: 70px;
+      margin-left: 850px;
+      font-size: 25px;
+      color: white;
+    }
+
+    .container2, .contai2 {
+      position: relative;
+      display: flex;
+      
+      flex-direction: row;
+      align-items: center;
+      gap: 50%; 
+      width: 500px;
+      height: 300px; 
+      margin-top: 150px; 
+      color: blue;
+    }
+    
+    .container2 .box, .contai2 .box1 {
+      position: absolute;
+      background-color: lightgray;
+      height: 200px;
+      width: 80%; 
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+    
+    }
+    
+    .container2 h1, .contai2 h1 {
+      position: absolute;
+      font-size: 30px; 
+      color: blue;
+      
+    }
+
+
+  .container3 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px; 
+    height: 500px; 
+    background-color: rgb(0,65,139); 
+    margin-left: 13%;
+    bottom: -200%;
+    border-radius: 50px;
+   
+  }
+  
+  .early {
+    position: absolute;
+    font-size: 30px; 
+    color: white; 
+   top: 20px;
+  }
+  
+  .box2 {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 80px;
+  }
+
+
+
+  
+  .footer{
+    position: absolute;
+    width: 100px;
+    background-color: #efb64d;
+    top:2500px;
+    width: 100%;
+    
+  }
+  .LOGO{
+    position: absolute;
+    width: 130px;
+    margin-left: 50px;
+  
+  }
+  .facebook{
+    position: absolute;
+    width: 85px;
+    margin-left:460px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .twitter{
+    position: absolute;
+    width: 85px;
+    margin-left:760px;
+    border-radius: 500px;
+    margin-top: 20px;
+  }
+  .instagram{
+    position: absolute;
+    width: 85px;
+    margin-left:615px;
+    margin-top: 20px;
+  }
